@@ -1,1 +1,197 @@
-{}
+{
+   "id":1,
+   "name":"El Güero",
+   "headline":"Authentic tacos. Crave without cure.",
+   "address":"Manuel María Contreras 59",
+   "city":"Mexico City",
+   "phone_number":"169 682 5719",
+   "email":"ola@elguero.mx",
+   "primary_color":"#125A2D",
+   "background_color":"#F6F0D2",
+   "menu":{
+      "a_la_carte":{
+         "title":"Tacos que Atrapan",
+         "categories":[
+            {
+               "name":"Tacos Clásicos",
+               "description":"served on fresh handmade tortillas",
+               "items":[
+                  {
+                     "name":"Al Pastor",
+                     "description":"Marinated pork, pineapple, cilantro, onion, salsa roja",
+                     "price":35.00
+                  },
+                  {
+                     "name":"Asada",
+                     "description":"Grilled beef, cilantro, onion, salsa verde",
+                     "price":40.00
+                  },
+                  {
+                     "name":"Carnitas",
+                     "description":"Slow-cooked pork, cilantro, onion, salsa verde",
+                     "price":38.00
+                  },
+                  {
+                     "name":"Pollo Adobado",
+                     "description":"Marinated chicken, cilantro, onion, salsa roja",
+                     "price":36.00
+                  },
+                  {
+                     "name":"Nopales con Queso",
+                     "description":"Grilled cactus, panela cheese, roasted tomato salsa",
+                     "price":32.00
+                  }
+               ]
+            },
+            {
+               "name":"Especiales de la Casa",
+               "description":"",
+               "items":[
+                  {
+                     "name":"Trompo Supremo",
+                     "description":"Double-stacked pastor, extra pineapple, melted Oaxaca cheese",
+                     "price":55.00
+                  },
+                  {
+                     "name":"Taco del Día",
+                     "description":"Daily chef’s creation using fresh market finds",
+                     "price":50.00
+                  },
+                  {
+                     "name":"Campechano",
+                     "description":"Mix of asada + chorizo, salsa taquera",
+                     "price":45.00
+                  },
+                  {
+                     "name":"Mar y Tierra",
+                     "description":"Grilled shrimp + steak, avocado salsa",
+                     "price":60.00
+                  }
+               ]
+            },
+            {
+               "name":"Antojitos & Sides",
+               "description":"",
+               "items":[
+                  {
+                     "name":"Esquites Callejeros",
+                     "description":"Street-style corn cup, mayo, lime, chili powder, cotija",
+                     "price":25.00
+                  },
+                  {
+                     "name":"Quesadillas de Comal",
+                     "description":"Fresh tortillas stuffed with Oaxaca cheese & choice of filling",
+                     "price":30.00
+                  },
+                  {
+                     "name":"Totopos con Guac",
+                     "description":"House-made chips with chunky guacamole",
+                     "price":28.00
+                  },
+                  {
+                     "name":"Frijoles Charros",
+                     "description":"Pinto beans with bacon, chorizo, jalapeño",
+                     "price":22.00
+                  }
+               ]
+            },
+            {
+               "name":"Postres",
+               "description":"",
+               "items":[
+                  {
+                     "name":"Churros con Cajeta",
+                     "description":"Cinnamon sugar churros with caramelized goat’s milk",
+                     "price":18.00
+                  },
+                  {
+                     "name":"Flan de la Abuela",
+                     "description":"Creamy vanilla flan with caramel sauce",
+                     "price":20.00
+                  }
+               ]
+            },
+            {
+               "name":"Bebidas",
+               "description":"",
+               "items":[
+                  {
+                     "name":"Agua Fresca del Día",
+                     "description":"Horchata, Jamaica, or Tamarindo",
+                     "price":15.00
+                  },
+                  {
+                     "name":"Refrescos Mexicanos",
+                     "description":"Jarritos, Coke in glass bottle",
+                     "price":20.00
+                  },
+                  {
+                     "name":"Cerveza Fría",
+                     "description":"Local & imported beers",
+                     "price":22.00
+                  }
+               ]
+            }
+         ]
+      },
+      "tasting_menu":{
+         "title":"Degustación de Sabores",
+         "categories":[
+            {
+               "name":"Pequeño",
+               "description":"'Tres y un Dulce' (Ideal for a light taste tour)",
+               "price":120.00,
+               "items":[
+                  {
+                     "name":"Taco al Pastor",
+                     "description":"Marinated pork, pineapple, cilantro, onion, salsa roja"
+                  },
+                  {
+                     "name":"Taco de Asada",
+                     "description":"Grilled beef, cilantro, onion, salsa verde"
+                  },
+                  {
+                     "name":"Taco de Nopales con Queso",
+                     "description":"Grilled cactus, panela cheese, roasted tomato salsa"
+                  },
+                  {
+                     "name":"Mini Churro",
+                     "description":"Cinnamon sugar, cajeta drizzle"
+                  }
+               ]
+            },
+            {
+               "name":"Grande",
+               "description":"'De la Calle a la Mesa' (Full street-to-table experience)",
+               "price":220.00,
+               "items":[
+                  {
+                     "name":"Esquites Callejeros",
+                     "description":"Cup of street corn with mayo, lime, chili powder, cotija"
+                  },
+                  {
+                     "name":"Taco Campechano",
+                     "description":"Mix of asada + chorizo, salsa taquera"
+                  },
+                  {
+                     "name":"Taco de Pescado Baja",
+                     "description":"Achiote-marinated chicken, lettuce, chipotle crema"
+                  },
+                  {
+                     "name":"Taco de Birria",
+                     "description":"Slow-braised beef, melted cheese, consommé dip"
+                  },
+                  {
+                     "name":"Flan de la Abuela",
+                     "description":"Classic caramel flan"
+                  },
+                  {
+                     "name":"Agua Fresca del Día",
+                     "description":"Your choice of Horchata, Jamaica, or Tamarindo"
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}
